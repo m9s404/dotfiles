@@ -310,9 +310,9 @@ alias 'gcam'='git commit -am'
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Created by `pipx` on 2022-11-20 00:11:38
-export PATH="$PATH:/home/marcoaraya/.local/bin"
+export PATH="$PATH:/home/m9s/.local/bin"
 
 
 ###
 alias 'firefox'='open -a firefox'
-alias config='/usr/bin/git --git-dir=/home/marcoaraya/.cfg/ --work-tree=/home/marcoaraya'
+alias config='/usr/bin/git --git-dir=/home/m9s/.cfg/ --work-tree=/home/m9s'
