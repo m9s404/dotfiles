@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/marcoaraya/.oh-my-zsh"
+export ZSH="/home/m9s/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -276,11 +276,11 @@ function extlogs(){
 }
 
 function works(){
-  cd /Users/marcoaraya/Work/2021/$1
+  cd /Users/m9s/Work/2021/$1
 }
 
 function repos(){
-  cd /users/marcoaraya/repositories
+  cd /users/m9s/repositories
 }
 
 function xconn(){
@@ -298,10 +298,10 @@ alias k=kubectl
 complete -F __start_kubectl k
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/marcoaraya/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/marcoaraya/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+# if [ -f '/Users/marcoaraya/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/marcoaraya/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/marcoaraya/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/marcoaraya/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+# if [ -f '/Users/marcoaraya/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/marcoaraya/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 #### GIT
 alias 'gcam'='git commit -am'
@@ -310,9 +310,9 @@ alias 'gcam'='git commit -am'
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Created by `pipx` on 2022-11-20 00:11:38
-export PATH="$PATH:/Users/marcoaraya/.local/bin"
+export PATH="$PATH:/home/marcoaraya/.local/bin"
 
 
 ###
 alias 'firefox'='open -a firefox'
-alias config='/usr/bin/git --git-dir=/Users/marcoaraya/.cfg/ --work-tree=/Users/marcoaraya'
+alias config='/usr/bin/git --git-dir=/home/marcoaraya/.cfg/ --work-tree=/home/marcoaraya'
